@@ -25,11 +25,12 @@ making texture tips
 	1	想像以上に、薄く作成しないと、unity側に組み込んだ時、自然にならなかった。
 		具体的には、"exe 5" で1発のみくらい。
 			↑修正)
-				3) のmaterial offsetにより、Realityが増したせいか、もう少し明るくても自然に見えた
-					exe 8(!b_Random)
+				3) のmaterial offset、unity側でのmaterial type = particle/Additiveへの変更
+				により、Realityが増したせいか、もう少し明るくても自然に見えた
+					exe 5(!b_Random) + 5(!b_Random) + 5(b_Random)
 				くらいやっても大丈夫。
-				b_Randomだと、少し濃いかな。。。
 				あとは適宜、調整。
+
 		key = c にて、Balanceを整える程度で丁度良さそう : 均等過ぎると、また不自然。
 		Baseの塗り も、oF上では薄くて見えないが、unity側では結構はっきりと見える。
 		
